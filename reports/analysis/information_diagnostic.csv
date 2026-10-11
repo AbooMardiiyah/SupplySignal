@@ -1,0 +1,4 @@
+scenario,rows,real_shortages,caught,false_alarms,missed
+Last monthly report,275,10,10,201,0
+Month-opening stock (hindsight),275,10,10,49,0
+Plus full-month receipts (hindsight),275,10,10,1,0

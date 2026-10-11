@@ -1,0 +1,17 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - observations:/app/data/operational
+      - ./app:/app/app:ro
+      - ./src:/app/src:ro
+      - ./.streamlit:/app/.streamlit:ro
+      - ./data/snapshots:/app/data/snapshots:ro
+      - ./data/example_lmis_input.csv:/app/data/example_lmis_input.csv:ro
+      - ./data/example_roster.csv:/app/data/example_roster.csv:ro
+      - ./data/example_mapping.json:/app/data/example_mapping.json:ro
+
+volumes:
+  observations:

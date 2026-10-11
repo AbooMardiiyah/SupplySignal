@@ -1,0 +1,8 @@
+Check,Records,Decision
+Records returned by the query,47,All public primary facilities in Afijio
+Primary health centres kept,28,Pilot scope
+Other subtypes excluded,19,"Out of scope, not invalid"
+Missing NHFR code,15,Kept; needs an agreed ID crosswalk before LMIS joins
+Records sharing an NHFR code,2,Kept separate; not merged
+Duplicated registry ID,0,Must be zero
+Coordinates outside Nigeria,0,Must be zero

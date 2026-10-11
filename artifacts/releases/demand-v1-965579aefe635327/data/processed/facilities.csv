@@ -1,0 +1,29 @@
+facility_id,nhfr_code,facility_name,state,lga,ward,facility_type,latitude,longitude,source,provenance
+0eceb876-3124-426a-ada6-525073e86e21,,Idi Emi Akilapa Leemp Community Project,Oyo,Afijio,Ilora 3,Primary Health Center,7.679345,3.869721667,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+23f5fcd1-3095-45ae-91d8-bbe0d89cb388,30/01/1/1/1/0024,Oke Boda Primary Health Center,Oyo,Afijio,Awe 2,Primary Health Center,7.81829834,3.971923828,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+2736cc95-1ba8-452f-b6e2-051a2f30ffec,30/01/1/1/1/0007,Fiditi Primary Health Center,Oyo,Afijio,Fiditi 2,Primary Health Center,7.71851,3.91382,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+34e3df5f-96f7-4b4f-ae21-f7197e9936e3,,Jarija Sango Ibon Health Center,Oyo,Afijio,Imini,Primary Health Center,7.624595,3.74834,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+36c54f2f-b9d0-488e-9b4a-8c3923d5d8da,,Abujakan Health Center,Oyo,Afijio,Akinmorin,Primary Health Center,7.752223333,3.976386667,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+3be731fd-7043-4f42-b38f-16192d672547,,Aguo Health Clinic,Oyo,Afijio,Akinmorin,Primary Health Center,7.747863333,3.91561,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+3ed1804e-6a9a-4a06-a51e-7256f7cddfbc,,Akinbola Health Center,Oyo,Afijio,Ilora 3,Primary Health Center,7.695443333,3.862975,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+4ed20dfd-6063-4ff6-b0be-94b9dfa41471,30/01/1/1/1/0004,Akinmorin Primary Health Center,Oyo,Afijio,Akinmonrin/Jobele,Primary Health Center,7.790861667,3.946361667,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+538ae5c6-df19-42ad-8d1a-15500386abcd,30/01/1/1/1/0013,Imini Primary Health Center,Oyo,Afijio,Imini,Primary Health Center,7.68951416,3.793518067,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+55499548-e346-443d-aeab-e3906d50590b,,Oja Omoba Health Center,Oyo,Afijio,Awe 2,Primary Health Center,7.693723333,4.040338333,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+59b3ee1f-dcbe-4d2f-b5ff-662c85d322e1,30/01/1/1/1/0014,Iware Maternity Health Center,Oyo,Afijio,Iware,Primary Health Center,7.685096667,3.959236667,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+66abc3ff-bb14-4e1f-a11d-57f539ef0ac4,30/01/1/1/1/0008,Idi Igba Primary Health Center,Oyo,Afijio,Ilora 2,Primary Health Center,7.80426,3.91524,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+6e0a0381-a9ca-4b3d-868c-5ecc10068a0b,,Loogun Health Clinic,Oyo,Afijio,Awe 2,Primary Health Center,7.689495,4.03707,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+6e6cfa53-734c-4466-a1ba-4df04c7cb799,30/01/1/1/1/0016,Mdg Primary Health Center,Oyo,Afijio,Ilora 2,Primary Health Center,7.79499,3.89278,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+7498b51f-ebf9-4b6d-8190-518bbe1eac9e,,Alabi Olorunda Model Primary Health Center,Oyo,Afijio,Awe 2,Primary Health Center,7.7086183,4.0148933,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+8e6e9b0f-032d-484e-811f-8ec11203458e,30/01/1/1/1/0033,Jafu Primary Health Center,Oyo,Afijio,Fiditi 1,Primary Health Center,7.72278,3.91595,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+afa553b4-4576-49ad-9fe4-4fda2f5bed5e,,Foritaje Health Center,Oyo,Afijio,Awe 2,Primary Health Center,7.695178333,4.052193333,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+b2b4492a-2307-4cbf-bb90-5d4ebe744a5c,30/01/1/1/1/0015,Jobele Primary Health Center,Oyo,Afijio,Akinmonrin/Jobele,Primary Health Center,7.765551667,3.921866667,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+baccadd0-6d64-4c06-916e-a6c7d48fdfbe,,Onifa Primary Health Center,Oyo,Afijio,Ilora 3,Primary Health Center,7.745301667,3.860256667,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+badc3fe4-f131-48a5-adc3-154018fcdb93,30/01/1/1/1/0024,Iware Model Primary Health Care,Oyo,Afijio,Iware,Primary Health Center,7.68170166,3.967102051,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+c06b20c1-63ec-4703-848a-683dd1e654d9,30/01/1/1/1/0003,Akinmorin Europian Economic Clinic,Oyo,Afijio,Akinmonrin/Jobele,Primary Health Center,7.784256667,3.939593333,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+c6b5c392-6b1d-4ac0-be5d-e9a3a0b2842d,,Ago Oyo Primary Health Center,Oyo,Afijio,Ilora 3,Primary Health Center,7.698601667,3.822888333,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+c95a4634-3ff3-49a0-ad21-31d9100ea18f,,Ayetoro Primary Health Center,Oyo,Afijio,Ilora 3,Primary Health Center,7.720995,3.852685,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+decb29f3-345c-47bf-ba93-09d8856030aa,,Atan Health Center,Oyo,Afijio,Imini,Primary Health Center,7.67782,3.7569917,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+e5af6ebc-b659-460c-bd48-ec0ae35a88f4,,Aribonbo Primary Health Center,Oyo,Afijio,Ilora 3,Primary Health Center,7.687345,3.8320833,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+f19b8057-d200-4914-b998-f8699ca07d55,30/01/1/1/1/0011,Ilora Primary Health Center,Oyo,Afijio,Ilora 2,Primary Health Center,7.801215,3.903968333,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+f374e8ff-4bd5-4841-9d98-ad1a9fce25cd,,Iware Primary Health Center,Oyo,Afijio,Imini,Primary Health Center,7.653098333,3.788815,GRID3/NHFR ArcGIS 2026-08-21,observed_registry
+fbbc7d4b-cc4d-4845-beff-db22f7c67437,30/01/1/1/1/0006,Awe Primary Health Center,Oyo,Afijio,Awe 1,Primary Health Center,7.827593333,3.958663333,GRID3/NHFR ArcGIS 2026-08-21,observed_registry

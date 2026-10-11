@@ -1,0 +1,33 @@
+{
+  "executed_at_utc": "2026-10-11T08:26:03.674854+00:00",
+  "python": "3.13.9",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "sha256": {
+    "data/processed/synthetic_lmis.csv": "247faf26cfa9ca13cfa275614f3a9b8bc47a3e37eaca91e4ee560fe9cae37c1a",
+    "data/processed/manifest.json": "823cdb66a89f229f453f61b34c8f751d4da688aca7581a8416aa562c7b18b736",
+    "src/supplysignal/__init__.py": "9ca6daf913871af31bd6d9eb318e672856fdd8922d30352ba37f01c973e9cd0f",
+    "src/supplysignal/baseline.py": "cc9660aa8dcff22d4b331bdec562daf1e989dff712c0aa84e7a0fbad3d8b7944",
+    "src/supplysignal/decisions.py": "ce9a6d273cbad4529b363e274ec76253e005b5de0c1cfd1422589504010bb537",
+    "src/supplysignal/features.py": "000c8c7e93ef7b753e2487e7035265d5a847b382f83e0c774848127ad4759dfc",
+    "src/supplysignal/fetch_sources.py": "4c9c81a8c510c686097a3ddc7577a453ddbd32983bcfaa0e8b35b08d18f40754",
+    "src/supplysignal/import_preview.py": "872ce3a5af7bf3b27318e19cc36cb25ca915b256237c8ff3f39907d0596412ae",
+    "src/supplysignal/inference.py": "c4d94ba816a05d9ac908b6a6fd8e7b236f78685b35c8564e5333c5b811ecd2b7",
+    "src/supplysignal/ingest.py": "630ef32f4c9f36a9a3820c447d156362fae009b460d5e80f8d49fda3dc413daf",
+    "src/supplysignal/logging_config.py": "7d1575ba01871ca80bfe853053386937adf0251ba88ba89b034fd75f46cf4eb0",
+    "src/supplysignal/operations.py": "e333b40b01f09bc80beaf14bb70d167aa19fb0c15f5ef620a06e4883f7ff46dd",
+    "src/supplysignal/pipeline.py": "e164b2dba95cad80b44d7a960d06d99b6c66cdee3b73df728903449061637902",
+    "src/supplysignal/ranking_eval.py": "e9da80c4378b9a921d156c44f17d81afdd0cd2474b04c3e76484eaaa8c96ac9b",
+    "src/supplysignal/release.py": "b368b6b23535fdb459f7844d9e59a81ce299ed4916b03dbf4732eeb80d75cf11",
+    "src/supplysignal/reporting.py": "ab58c87f73946326bcddacd9de74910093b6861f8fe1f8919464236e086fdc47",
+    "src/supplysignal/schema.py": "67c0fe3210ef1358e7d752866816fa79ac9ab82f00cb6c0b796bdbf0f01958a3",
+    "src/supplysignal/train.py": "6fb4a96a461c4777198c727972e4a3b18faa8aa67cdc8c82292064daeee02eaa",
+    "src/supplysignal/versioning.py": "a00792d38e6b0df8927a6eee2063b82456caf82f3073d1e99eaeac7b40f0e4e7",
+    "src/supplysignal/workload_eval.py": "158249ee474eb8e9a049e2c07307bc023039602877138e85a6d31efe1dd2ca82",
+    "src/supplysignal/worksheet.py": "0e92d2fc7808fa24979e6f0b295cda002c45ff72b33e1ddfb6531290fc93b50a"
+  }
+}

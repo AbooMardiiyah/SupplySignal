@@ -1,0 +1,11 @@
+{
+  "raw_records": 47,
+  "retained_phcs": 28,
+  "missing_nhfr": 15,
+  "duplicate_code_records": 2,
+  "oyo_essential_pct": 43.21072321462795,
+  "national_public_primary_pct": 34.34549861794788,
+  "oyo_oxytocin_pct": 63.28578629018344,
+  "oyo_magnesium_pct": 34.51376575277223,
+  "max_pair_distance_km": 34.39294879635126
+}

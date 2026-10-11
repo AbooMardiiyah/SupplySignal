@@ -1,0 +1,7 @@
+Mechanism,How it is simulated,Implication
+Missing reports,Random 4.5% plus one scripted silent clinic,"Missingness flags a check, not a confirmed shortage"
+Demand,"Facility size multiplier, bounded noise, June–September rise",Calendar features can help the model
+Resupply,Triggered by low stock; 10% of deliveries fail,Receipts between reports are the main unknown
+Stock balances,Always balance; losses and adjustments are zero,Real imports are validated for imbalance separately
+Products,All three products at every PHC,Real eligibility comes from the LGA roster
+Stockout days,Derived from the unmet share of the month,"A monthly measure, not a daily stock path"

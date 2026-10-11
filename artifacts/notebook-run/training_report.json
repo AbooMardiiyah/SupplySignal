@@ -1,0 +1,130 @@
+{
+  "evaluation": "SIMULATION ONLY",
+  "split": {
+    "train_targets": "2025-04-01 through 2026-02-01",
+    "validation_targets": "2026-03-01 through 2026-05-01",
+    "test_targets": "2026-06-01 through 2026-09-01",
+    "train_label_deadline": "2026-03-01",
+    "refit_label_deadline": "2026-06-01"
+  },
+  "row_counts": {
+    "train_fit": 763,
+    "validation": 252,
+    "refit": 1006,
+    "test": 336
+  },
+  "fit_target": "reported consumption from submitted, uncensored months",
+  "evaluation_target": "synthetic latent demand",
+  "feature_columns": [
+    "month_sin",
+    "month_cos",
+    "last_consumption",
+    "mean_3_consumption",
+    "mean_6_consumption",
+    "std_3_consumption",
+    "report_age_months",
+    "visible_reports_last_3",
+    "visible_reports_last_6",
+    "commodity__magnesium_sulfate",
+    "commodity__misoprostol",
+    "commodity__oxytocin"
+  ],
+  "validation_metrics": {
+    "last_report": {
+      "n": 252,
+      "mae": 3.1151,
+      "wape": 0.2227,
+      "bias_units": -0.4802
+    },
+    "mean_last_3_reports": {
+      "n": 252,
+      "mae": 2.4907,
+      "wape": 0.1781,
+      "bias_units": -0.2209
+    },
+    "hist_gradient_boosting": {
+      "n": 252,
+      "mae": 2.4677,
+      "wape": 0.1764,
+      "bias_units": -0.0017
+    },
+    "lightgbm": {
+      "n": 252,
+      "mae": 2.4376,
+      "wape": 0.1743,
+      "bias_units": -0.1104
+    }
+  },
+  "selected_model": "lightgbm",
+  "test_metrics": {
+    "last_report": {
+      "n": 336,
+      "mae": 3.5536,
+      "wape": 0.2216,
+      "bias_units": -1.0893
+    },
+    "mean_last_3_reports": {
+      "n": 336,
+      "mae": 3.0347,
+      "wape": 0.1893,
+      "bias_units": -1.7133
+    },
+    "hist_gradient_boosting": {
+      "n": 336,
+      "mae": 2.7151,
+      "wape": 0.1693,
+      "bias_units": -0.2306
+    },
+    "lightgbm": {
+      "n": 336,
+      "mae": 2.6712,
+      "wape": 0.1666,
+      "bias_units": -0.3316
+    }
+  },
+  "selected_test_by_commodity": {
+    "magnesium_sulfate": {
+      "n": 112,
+      "mae": 1.1302,
+      "wape": 0.1642,
+      "bias_units": -0.2433
+    },
+    "misoprostol": {
+      "n": 112,
+      "mae": 3.9323,
+      "wape": 0.1571,
+      "bias_units": -1.013
+    },
+    "oxytocin": {
+      "n": 112,
+      "mae": 2.9511,
+      "wape": 0.1823,
+      "bias_units": 0.2616
+    }
+  },
+  "selected_test_alert_metrics": {
+    "eligible_count": 297,
+    "actual_events_total": 11,
+    "actual_events_eligible": 10,
+    "true_positives": 10,
+    "false_positives": 220,
+    "false_negatives": 0,
+    "precision": 0.0435,
+    "recall": 1.0,
+    "overall_event_recall": 0.9091,
+    "top_10_hits_per_period": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "note": "Simulation-only stockout evaluation; unknown receipts limit alert precision"
+  },
+  "known_limitations": [
+    "Demand and labels in this run are simulated; results do not establish Nigerian field accuracy",
+    "Unobserved demand during real stockouts needs service-volume or patient-level proxy data",
+    "Monthly reporting delay limits the freshness of four-week decisions",
+    "Unknown future receipts can create false stockout alerts"
+  ],
+  "model_version": "demand-v1-965579aefe635327"
+}

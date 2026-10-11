@@ -1,0 +1,10 @@
+{
+  "rows": 2016,
+  "missing_reports": 103,
+  "median_delay_days": 8.0,
+  "stale_feature_pct": 100.0,
+  "shortage_events": 42,
+  "censored_observed_rows": 50,
+  "seed_min_events": 22,
+  "seed_max_events": 42
+}

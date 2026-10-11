@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.git/
+tests/
+notebooks/
+docs/
+data/raw/
+data/interim/
+data/processed/
+*.ipynb
+*.docx
+.uv-cache/
+artifacts/
+reports/
+**/.env

@@ -1,0 +1,13 @@
+{
+  "model_version": "demand-v1-965579aefe635327",
+  "status": "SIMULATION PROTOTYPE; no field validation",
+  "path": "artifacts/releases/demand-v1-965579aefe635327",
+  "files": 30,
+  "load_parity_rows": 84,
+  "selected_test_metrics": {
+    "n": 336,
+    "mae": 2.6712,
+    "wape": 0.1666,
+    "bias_units": -0.3316
+  }
+}

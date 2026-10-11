@@ -1,0 +1,70 @@
+{
+  "model_version": "demand-v1-965579aefe635327",
+  "schema_version": 1,
+  "ledger_sha256": "247faf26cfa9ca13cfa275614f3a9b8bc47a3e37eaca91e4ee560fe9cae37c1a",
+  "training_source_sha256": {
+    "features.py": "000c8c7e93ef7b753e2487e7035265d5a847b382f83e0c774848127ad4759dfc",
+    "train.py": "6fb4a96a461c4777198c727972e4a3b18faa8aa67cdc8c82292064daeee02eaa",
+    "versioning.py": "a00792d38e6b0df8927a6eee2063b82456caf82f3073d1e99eaeac7b40f0e4e7"
+  },
+  "python": "3.13.9",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  },
+  "configuration": {
+    "selected_model": "lightgbm",
+    "selected_parameters": {
+      "boosting_type": "gbdt",
+      "class_weight": null,
+      "colsample_bytree": 1.0,
+      "importance_type": "split",
+      "learning_rate": 0.05,
+      "max_depth": -1,
+      "min_child_samples": 20,
+      "min_child_weight": 0.001,
+      "min_split_gain": 0.0,
+      "n_estimators": 180,
+      "n_jobs": 2,
+      "num_leaves": 15,
+      "objective": "poisson",
+      "random_state": 42,
+      "reg_alpha": 0.0,
+      "reg_lambda": 0.0,
+      "subsample": 1.0,
+      "subsample_for_bin": 200000,
+      "subsample_freq": 0,
+      "verbosity": -1
+    },
+    "selection": "lowest validation MAE; test excluded from selection",
+    "split": {
+      "train_targets": "2025-04-01 through 2026-02-01",
+      "validation_targets": "2026-03-01 through 2026-05-01",
+      "test_targets": "2026-06-01 through 2026-09-01",
+      "train_label_deadline": "2026-03-01",
+      "refit_label_deadline": "2026-06-01"
+    },
+    "features": [
+      "month_sin",
+      "month_cos",
+      "last_consumption",
+      "mean_3_consumption",
+      "mean_6_consumption",
+      "std_3_consumption",
+      "report_age_months",
+      "visible_reports_last_3",
+      "visible_reports_last_6",
+      "commodity__magnesium_sulfate",
+      "commodity__misoprostol",
+      "commodity__oxytocin"
+    ],
+    "fallback_median": 14.0,
+    "source_provenance": "simulated"
+  },
+  "artifact_sha256": "3e1011e3c62fe7e0ee9c8fdd257058e7ca87d22bb2649042acc1eace5c7e352b",
+  "report_sha256": "5cf50f748fd884b40e0e66a1504c3cb7f98e035ef4ab74d916c5acba155332b9",
+  "predictions_sha256": "48ebf9be10d75307fafa5136b3e747ec2eb9940e869e440c428460cd7f1fb6d9"
+}

@@ -1,0 +1,15 @@
+PASS map renders offline with 28 PHCs and ten call cards
+PASS offline worksheet has ten facility calls, 24 product checks and explicit unknowns
+PASS CSV download produces 52 readable backlog rows
+PASS displayed-case export follows the ten-case filter
+PASS call card opens the clinic on the Verify and update tab
+PASS fictional LMIS import exposes low cover and never-reporting roster pair
+PASS uploaded LMIS CSV, roster, and field mapping produce a worklist
+PASS follow-up persists without changing the supply alert
+PASS recipient count promotes case to donor verification
+PASS donor count unlocks conditional transfer proposal
+PASS expected delivery does not add stock
+PASS confirmed delivery changes stock and clears the shortage
+PASS duplicate receipt rejected
+PASS decision persists after page refresh
+PASS verified shortage without a donor escalates for resupply

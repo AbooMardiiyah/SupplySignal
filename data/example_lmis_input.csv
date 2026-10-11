@@ -1,0 +1,4 @@
+org_unit,product_code,month,stock_unit,opening,received,dispensed,discarded,correction,count_end,days_out,reported_on
+EXAMPLE-PHC-001,EXAMPLE-OXYTOCIN-10IU-AMP,2026-06-01,ampoule,42,20,28,0,0,34,0,2026-07-04
+EXAMPLE-PHC-001,EXAMPLE-OXYTOCIN-10IU-AMP,2026-07-01,ampoule,34,30,29,1,0,34,0,2026-08-05
+EXAMPLE-PHC-001,EXAMPLE-OXYTOCIN-10IU-AMP,2026-08-01,ampoule,34,0,32,0,0,2,0,2026-09-06

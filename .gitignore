@@ -1,0 +1,34 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+
+# Secrets (YarnGPT key lives in src/.env)
+.env
+**/.env
+
+# Generated data; Docker rebuilds data/processed from the frozen snapshot.
+# artifacts/ (model + checksummed releases) is deliberately committed.
+data/raw/*
+data/interim/*
+data/processed/*
+data/operational/*
+!data/README.md
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Video production materials are ignored; include the reviewed demo for submission.
+reports/video/*
+!reports/video/NARRATION.md
+!reports/video/SupplySignal_demo_reviewed.mp4
+scripts/*
+!scripts/execute_notebook.py
+CLAUDE.md
+
+# Notebook chart copies (the charts are embedded in the executed notebooks)
+reports/analysis/*.png

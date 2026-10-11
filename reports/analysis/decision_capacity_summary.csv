@@ -1,0 +1,13 @@
+policy,capacity,facility_calls,product_checks,shortage_calls,calls_without_shortage,shortage_product_checks,missed_shortage_products,event_products,candidate_event_products,unmet_units_found,total_unmet_units,shortage_coverage
+Oldest-report first,5,20,54,2,18,2,9,11,11,10.0,56.0,0.18181818181818182
+Oldest-report first,10,40,107,8,32,8,3,11,11,40.0,56.0,0.7272727272727273
+Oldest-report first,20,80,205,11,69,11,0,11,11,56.0,56.0,1.0
+Oldest-report first,28,112,277,11,101,11,0,11,11,56.0,56.0,1.0
+Reported-zero first,5,20,56,2,18,2,9,11,11,6.0,56.0,0.18181818181818182
+Reported-zero first,10,40,108,5,35,5,6,11,11,31.0,56.0,0.45454545454545453
+Reported-zero first,20,80,215,11,69,11,0,11,11,56.0,56.0,1.0
+Reported-zero first,28,112,277,11,101,11,0,11,11,56.0,56.0,1.0
+SupplySignal gap,5,20,56,3,17,3,8,11,11,16.0,56.0,0.2727272727272727
+SupplySignal gap,10,40,106,5,35,5,6,11,11,21.0,56.0,0.45454545454545453
+SupplySignal gap,20,80,202,8,72,8,3,11,11,42.0,56.0,0.7272727272727273
+SupplySignal gap,28,112,277,11,101,11,0,11,11,56.0,56.0,1.0

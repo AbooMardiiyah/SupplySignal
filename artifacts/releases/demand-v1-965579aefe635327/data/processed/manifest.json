@@ -1,0 +1,22 @@
+{
+  "pilot": "Afijio LGA, Oyo State",
+  "facility_count": 28,
+  "missing_nhfr_codes": 15,
+  "duplicate_nhfr_codes": [
+    "30/01/1/1/1/0024"
+  ],
+  "commodity_count": 3,
+  "months": 24,
+  "operational_row_count": 2016,
+  "report_status_counts": {
+    "reported": 1913,
+    "missing": 103
+  },
+  "seed": 20261004,
+  "real_facility_source": "GRID3 ArcGIS layer, NHFR 2024 inputs, updated 2026-08-21",
+  "real_facility_source_url": "https://services3.arcgis.com/9nfxWATFamVUTTGb/ArcGIS/rest/services/health_facilities_state_WFL1/FeatureServer/1",
+  "operational_source": "simulated; no Nigerian facility inventory observations",
+  "nhfs_context": "Oyo public primary mean essential-drug availability 43.2107% in 2023; state aggregate, not facility or commodity level",
+  "nhfs_source_url": "https://microdata.nigerianstat.gov.ng/index.php/catalog/149/related-materials",
+  "raw_registry_sha256": "ad04a6afbac0a42736711d2fa6abcf50df8175d55a0033bef5fa02172d3a1c09"
+}

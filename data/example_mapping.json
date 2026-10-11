@@ -1,0 +1,14 @@
+{
+  "facility_id": "org_unit",
+  "commodity_id": "product_code",
+  "period": "month",
+  "unit": "stock_unit",
+  "opening_stock": "opening",
+  "receipts": "received",
+  "consumption": "dispensed",
+  "losses": "discarded",
+  "adjustments": "correction",
+  "closing_stock": "count_end",
+  "stockout_days": "days_out",
+  "submitted_at": "reported_on"
+}
